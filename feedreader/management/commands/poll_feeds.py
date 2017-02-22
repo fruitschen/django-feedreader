@@ -18,13 +18,16 @@ logger = logging.getLogger('feedreader')
 class Command(BaseCommand):
     args = 'none'
     help = 'Polls all Feeds for Entries.'
-    option_list = BaseCommand.option_list + (
-        make_option('--verbose',
-                    action='store_true',
-                    dest='verbose',
-                    default=False,
-                    help='Print progress on command line'),
-    )
+
+    def add_arguments(self, parser):
+        # Positional arguments
+        parser.add_argument(
+            '--verbose',
+            action='store_true',
+            dest='verbose',
+            default=False,
+            help='Print progress on command line'
+        )
 
     def handle(self, *args, **options):
         """

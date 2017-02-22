@@ -29,7 +29,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
     ],
     install_requires=[
-        'Django==1.9.1',
+        'Django==1.10.5',
         'django-braces==1.8.1',
         'factory-boy==2.6.0',
         'feedparser==5.2.1',
