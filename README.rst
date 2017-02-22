@@ -1,7 +1,7 @@
 README
 ======
 
-Feedreader is a simple Django 1.8 app to aggregate RSS feeds.
+Feedreader is a simple Django 1.10 app to aggregate RSS feeds.
 
 Features
 --------
@@ -48,7 +48,7 @@ in your project's settings.
 Dependencies
 ------------
 
--  `Django 1.9.1 <https://pypi.python.org/pypi/Django/1.9.1>`__
+-  `Django 1.10.5 <https://pypi.python.org/pypi/Django/1.10.5>`__
 -  `django-braces 1.8.1 <https://pypi.python.org/pypi/django-braces/1.8.1>`__
 -  `factory_boy 2.6.0 <https://pypi.python.org/pypi/factory_boy/2.6.0>`__
 -  `feedparser 5.2.1 <https://pypi.python.org/pypi/feedparser/5.2.1>`__
